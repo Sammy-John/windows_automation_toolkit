@@ -1,0 +1,70 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.unsuccessfulbuild
+*.RS*Workspace
+*.opendb
+*.VC.db
+
+# Ignore Visual Studio files
+.vscode/
+.vs/
+.idea/
+
+# Ignore Rider and ReSharper files
+*.sln.iml
+.idea/
+*.DotSettings.user
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Ignore Publish and Package folders
+AppPackages/
+App_Data/
+PublishProfiles/
+
+# Ignore Windows Thumbnail Cache files
+Thumbs.db
+ehthumbs.db
+
+# Ignore temporary files and folders
+*.tmp
+*.temp
+*.log
+*.vspscc
+*.vssscc
+
+# Ignore PowerShell modules and temporary files
+PowerShell_Scripts/Modules/
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+
+# Ignore local config files
+appsettings.Local.json
+secrets.json
+
+# Ignore backup files
+*_backup/
+*.bak
+*.bak2
+
+# Ignore build results and deployment artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+
+# Ignore Mac OS system files
+.DS_Store
